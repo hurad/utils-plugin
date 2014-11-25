@@ -1,0 +1,34 @@
+{
+    "name": "hurad/utils-plugin",
+    "description": "Utils plugin",
+    "homepage": "https://github.com/hurad/utils-plugin",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "hurad",
+        "utils"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Abdoli Rad",
+            "homepage": "https://github.com/atkrad"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hurad/utils-plugin/issues",
+        "source": "https://github.com/hurad/utils-plugin"
+    },
+    "require": {
+        "php": ">=5.4.19",
+        "cakephp/cakephp": "3.0.*-dev",
+        "cakephp/plugin-installer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Utils\\": "src"
+        }
+    },
+    "extra": {
+        "installer-name": "Utils"
+    }
+}
